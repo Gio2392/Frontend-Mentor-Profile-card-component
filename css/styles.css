@@ -37,6 +37,7 @@ padding: 2rem 0;}
     align-items: center;
     justify-content: center;
     overflow: hidden;
+    padding: 3rem;
     z-index: -3;
 }
 .bg_pat{
@@ -70,10 +71,14 @@ padding: 2rem 0;}
     background: #fff;
     border-radius: 2rem;
     overflow: hidden;
-    margin: 0 3rem;
+    /* margin: 0 3rem; */
 }
 .bg_card{
     height: 14rem;
+}
+.bg_card img{
+    max-width: unset;
+    object-fit: contain;
 }
 .card_content{
     position: relative;
