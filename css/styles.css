@@ -52,7 +52,7 @@ padding: 2rem 0;}
 }
 @media (min-width: 768px) {
     .bg_pat.top{
-       left: -39rem;
+       left: -30rem;
     }
 }
 .bg_pat.bottom{
@@ -63,7 +63,7 @@ padding: 2rem 0;}
 }
 @media (min-width: 768px) {
     .bg_pat.bottom{
-        right: -25rem;
+        right: -15rem;
     }  
 }
 .card{
@@ -71,7 +71,7 @@ padding: 2rem 0;}
     background: #fff;
     border-radius: 2rem;
     overflow: hidden;
-    /* margin: 0 3rem; */
+    box-shadow: 0px 30px 100px rgba(0, 0, 0, .2);
 }
 .bg_card{
     height: 14rem;
