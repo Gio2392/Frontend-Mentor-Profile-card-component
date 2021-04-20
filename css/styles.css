@@ -46,20 +46,31 @@ padding: 2rem 0;}
 .bg_pat.top{
     top: 0;
     transform: translateY(-50%);
-    left: -25rem;
+    left: -20rem;
     z-index: -1;
+}
+@media (min-width: 768px) {
+    .bg_pat.top{
+       left: -39rem;
+    }
 }
 .bg_pat.bottom{
     bottom: 0;
-    right: -25rem;
-    transform: translateY(50%);
+    right: -20rem;
+    margin-bottom: -50%;
     z-index: -2;
+}
+@media (min-width: 768px) {
+    .bg_pat.bottom{
+        right: -25rem;
+    }  
 }
 .card{
     max-width: 35rem;
     background: #fff;
     border-radius: 2rem;
     overflow: hidden;
+    margin: 0 3rem;
 }
 .bg_card{
     height: 14rem;
